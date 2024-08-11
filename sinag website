@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinag - Official Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5dc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header {
+            background-color: #8fbc8f;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        section {
+            margin: 20px 0;
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2e8b57;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .portfolio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            width: 100%;
+            background-color: #8fbc8f;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Sinag's World</h1>
+</header>
+
+<section class="about-me">
+    <h2>About Me</h2>
+    <p>Hi, I'm Sinag, which means "light" in Filipino. Just as light illuminates the world around us, I strive to bring warmth, clarity, and inspiration through my music. My journey as an artist is fueled by a passion to express the raw emotions and stories that shape our lives.</p>
+</section>
+
+<section class="portfolio">
+    <h2>Portfolio</h2>
+    <p><strong>Debut Single:</strong> Larawan</p>
+    <p>"Larawan" is a reflection of our memories, a way to capture the past and hold onto it, even when it seems to slip through our fingers. It's my way of painting a picture of the emotions that linger within us.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sinag. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
